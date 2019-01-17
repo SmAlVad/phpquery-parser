@@ -1,5 +1,5 @@
 <?php
-require_once 'phpquery/phpQuery/phpQuery.php';
+require_once __DIR__ . '/phpquery/phpQuery/phpQuery.php';
 
 /**
  * Files for save data

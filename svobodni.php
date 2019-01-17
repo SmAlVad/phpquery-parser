@@ -1,6 +1,6 @@
 <?php
 
-require_once 'index.php';
+require_once __DIR__ . '/index.php';
 
 $html   =  getPageByUrl('http://svobzan.amur.ru/Vak.htm', 'windows-1251');
 $pq     = phpQuery::newDocument($html);
