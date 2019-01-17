@@ -2,13 +2,13 @@
 require_once 'phpquery/phpQuery/phpQuery.php';
 
 /**
- * Фаил для спарсенных данных
+ * Files for save data
  */
 const SVOBODNI = __DIR__ . '/adv/svobodni/parsed_data';
 
 
 /**
- * Парсит переданный URL
+ * Get html
  *
  * @param $url
  * @param $charset
