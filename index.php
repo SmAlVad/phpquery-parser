@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/phpquery/phpQuery/phpQuery.php';
+require_once __DIR__ . '/vendor/electrolinux/phpquery/phpQuery/phpQuery.php';
 
 /**
  * Files for save data
@@ -47,7 +47,6 @@ function getPageByUrl($url, $charset, $referer = 'http://www.google.com')
 
     //Отлавливаем ошибки подключения
     if ($result === false) {
-        echo "Ошибка CURL: " . curl_error($curl);
         return false;
     } else {
         $result = iconv($charset, 'UTF-8', $result);
