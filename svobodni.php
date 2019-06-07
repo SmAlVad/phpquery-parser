@@ -17,13 +17,13 @@ if ($html) {
         $csfds[] = [
             'title'         => trim($pq->find('td:eq(0)')->text()),
             'salary_start'  => (int)trim($pq->find('td:eq(2)')->text()),
-            'education'     => trim($pq->find('td:eq(3)')->text()),
-            'count'         => (int)trim($pq->find('td:eq(4)')->text()),
-            'work_type'     => trim($pq->find('td:eq(5)')->text()),
-            'organization'  => trim($pq->find('td:eq(6)')->text()),
-            'address'       => trim($pq->find('td:eq(7)')->text()),
-            'phone'         => trim($pq->find('td:eq(8)')->text()),
-            'additionally'  => trim($pq->find('td:eq(9)')->text()),
+            'education'     => trim($pq->find('td:eq(4)')->text()),
+            'count'         => (int)trim($pq->find('td:eq(5)')->text()),
+            'work_type'     => trim($pq->find('td:eq(6)')->text()),
+            'organization'  => trim($pq->find('td:eq(7)')->text()),
+            'address'       => trim($pq->find('td:eq(8)')->text()),
+            'phone'         => trim($pq->find('td:eq(9)')->text()),
+            'additionally'  => trim($pq->find('td:eq(10)')->text()),
         ];
     }
 
